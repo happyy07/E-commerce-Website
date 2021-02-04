@@ -1,0 +1,199 @@
+/*############################################Revision History################################################
+
+Happy Patel (2013214)		13-10-2020		Create project folder 
+Happy Patel (2013214)		13-10-2020		Create index file  
+Happy Patel (2013214)		18-10-2020		Create all functions and css file   
+Happy Patel (2013214)		18-10-2020		Create home page and buying page    
+Happy Patel (2013214)		19-10-2020		working on validation part    
+Happy Patel (2013214)		20-10-2020	  	validation part  complete   
+Happy Patel (2013214)		28-10-2020              text file part complete order page designing done									   
+Happy Patel (2013214)		29-10-2020	  	fetch data on page 3    
+Happy Patel (2013214)		29-10-2020	  	90%  work complete  
+Happy Patel (2013214)		31-10-2020	  	last page done   
+Happy Patel (2013214)		26-11-2020	  	login and register design done, database creation done       
+Happy Patel (2013214)		28-11-2020	  	design of all forms done   
+Happy Patel (2013214)		30-11-2020	  	validation done using classes   
+Happy Patel (2013214)		5-12-2020	  	registration done, buy page done       
+Happy Patel (2013214)		5-12-2020	  	login page done   
+Happy Patel (2013214)		8-12-2020	  	account page, pur_chases page complete(100%)
+Happy Patel (2013214)		10-12-2020	  	rename the page pur_chases to orders
+
+############################################################################################################*/
+
+/*css for header tag*/
+header{
+    overflow:hidden;
+    margin:auto;
+    background-color:#e7e7e7;
+    color:#4e4e4e;
+    max-height:50px;
+    padding: 0px 5px 5px 5px;
+}
+
+/*css for anchor tag of header*/
+header a{
+    text-decoration: none;
+}
+
+/*css for nav tag of header*/
+header nav{
+    float:right;
+}
+
+/*css for ul of nav tag of header*/
+header nav ul{
+    margin:0;
+    padding:0;
+}
+
+/*css for li tag of header*/
+header li{
+    float: left;
+    display:inline;
+    padding:0px 20px;
+    margin-top:20px;
+}
+
+/*css for hover in header*/
+header a:hover{
+    color:#4e4e4e;
+    font-weight:bold;
+}
+
+/*css for body tag*/
+body{
+    background-color: #F0F8FF;
+}
+
+/*class logo for logo*/
+.logo{
+    float:left;
+    height: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+/*class for-content for content which is displayed on home page */
+.for-content{
+    text-align: center;
+}
+
+/*class for-logout for logout message which is displayed on logout page */
+.for-logout{
+    text-align: center;
+    height: 420px;
+}
+
+
+/*class advertising for shoes advertisement which is displayed on home page */
+.advertising{
+    height: 300px;
+    width: 300px;
+}
+
+/*class popular for one popular shoe(which is in red border) which is displayed on home page */
+.popular{
+    border: 5px red solid;
+    width: 100%;
+}
+
+/*class for the form*/
+.for-form{
+    padding:20px 50px 10px 45px;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+}
+
+/*css for form where input type is text*/
+input[type=text]{
+    width:30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+ 
+/*css for form where input name is password*/
+input[name="password"]{
+    width:30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+
+/*css for form where input type is submit*/
+input[type=submit] {
+    width:30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+/*css for hover in form where input type is submit*/
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*css for form where input type is date*/
+input[type=date]{
+    width:30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+/*css for form where button name is search*/
+button[name=search]{
+    width:30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+ 
+/*css for combo box*/
+select[name = product]{
+    width:30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+/*class red is for all the errors during validation*/
+.red{
+    color: red;
+}
+
+/*css for footer*/
+footer{
+    overflow:hidden;
+    background-color:#202020;
+    font-size:15 px;
+    color:#bbbbbb;
+    padding:25px;
+}
